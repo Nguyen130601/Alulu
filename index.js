@@ -1,4 +1,6 @@
-const server = require('fastify')();
+const server = require('fastify')({
+  logger: true
+});
 const PORT = process.env.PORT || 4000;
 
 console.log(`worker pid=${process.pid}`);
