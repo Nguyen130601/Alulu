@@ -9,6 +9,6 @@ server.get('/', function (request, reply) {
   reply.send({ hello: 'world' })
 })
 
-server.listen(PORT, () => {
+server.listen(PORT, '0.0.0.0', () => {
   console.log(`Producer running at ${PORT}`);
 });
