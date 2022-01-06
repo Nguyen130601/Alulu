@@ -1,0 +1,23 @@
+{
+  "name": "alulu",
+  "version": "1.0.0",
+  "description": "Alulu is a landing beautiful landing page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jvldwin/Alulu.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jvldwin/Alulu/issues"
+  },
+  "homepage": "https://github.com/Jvldwin/Alulu#readme",
+  "dependencies": {
+    "fastify": "^3.25.3"
+  }
+}
