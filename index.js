@@ -23,3 +23,6 @@ server.get('/recipes/:id', async (req, reply) => {
     }
   };
 });
+server.listen(PORT, HOST, () => {
+  console.log(`Producer running at http://${HOST}:${PORT}`);
+});
